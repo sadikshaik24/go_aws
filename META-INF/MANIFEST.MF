@@ -1,0 +1,67 @@
+Ant-Version: Apache Ant 1.6.5
+Archiver-Version: Plexus Archiver
+Automatic-Module-Name: okio
+Bnd-LastModified: 1507981483988
+Build-Date: 2017-05-15
+Build-Jdk: 1.8.0_144
+Built-By: somov
+Bundle-Classpath: .
+Bundle-Copyright: Copyright (c) 2008-2018 Mort Bay Consulting Pty. Ltd
+ .
+Bundle-Description: YAML 1.1 parser and emitter for Java
+Bundle-DocURL: https://glassfish.dev.java.net
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: SnakeYAML
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: org.yaml.snakeyaml
+Bundle-Vendor: GlassFish Community
+Bundle-Version: 1.19.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.yaml.snakeyaml;version="1.19",org.yaml.snakeyaml.c
+ omposer;version="1.19",org.yaml.snakeyaml.constructor;version="1.19",
+ org.yaml.snakeyaml.emitter;version="1.19",org.yaml.snakeyaml.error;ve
+ rsion="1.19",org.yaml.snakeyaml.events;version="1.19",org.yaml.snakey
+ aml.extensions.compactnotation;version="1.19",org.yaml.snakeyaml.intr
+ ospector;version="1.19",org.yaml.snakeyaml.nodes;version="1.19",org.y
+ aml.snakeyaml.parser;version="1.19",org.yaml.snakeyaml.reader;version
+ ="1.19",org.yaml.snakeyaml.representer;version="1.19",org.yaml.snakey
+ aml.resolver;version="1.19",org.yaml.snakeyaml.scanner;version="1.19"
+ ,org.yaml.snakeyaml.serializer;version="1.19",org.yaml.snakeyaml.toke
+ ns;version="1.19",org.yaml.snakeyaml.util;version="1.19"
+Extension-Name: javax.servlet
+Implementation-Build: trunk@r1636211; 2014-11-02 23:51:55+0000
+Implementation-Title: Apache Commons Exec
+Implementation-Vendor: GlassFish Community
+Implementation-Vendor-Id: org.glassfish
+Implementation-Version: 3.1.0
+Import-Package: org.yaml.snakeyaml;version="[1.19,2)",org.yaml.snakeya
+ ml.composer;version="[1.19,2)",org.yaml.snakeyaml.emitter;version="[1
+ .19,2)",org.yaml.snakeyaml.error;version="[1.19,2)",org.yaml.snakeyam
+ l.events;version="[1.19,2)",org.yaml.snakeyaml.introspector;version="
+ [1.19,2)",org.yaml.snakeyaml.nodes;version="[1.19,2)",org.yaml.snakey
+ aml.parser;version="[1.19,2)",org.yaml.snakeyaml.reader;version="[1.1
+ 9,2)",org.yaml.snakeyaml.resolver;version="[1.19,2)",org.yaml.snakeya
+ ml.scanner;version="[1.19,2)",org.yaml.snakeyaml.serializer;version="
+ [1.19,2)",org.yaml.snakeyaml.tokens;version="[1.19,2)"
+Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt
+ =NOTICE.txt
+Main-Class: org.openqa.grid.selenium.GridLauncherV3
+Manifest-Version: 1.0
+Originally-Created-By: Apache Maven Bundle Plugin
+Provide-Capability: osgi.serviceloader;osgi.serviceloader="org.eclipse
+ .jetty.http.HttpFieldPreEncoder"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Specification-Title: Apache Commons Exec
+Specification-Vendor: Oracle Corporation
+Specification-Version: 3.1
+Tool: Bnd-3.0.0.201509101326
+X-Compile-Source-JDK: 1.5
+X-Compile-Target-JDK: 1.5
+url: http://www.eclipse.org/jetty
+
+Name: Build-Info
+Build-Revision: e82be7d358
+Build-Time: 2018-11-14T08:25:53
+Selenium-Version: 3.141.59
+
